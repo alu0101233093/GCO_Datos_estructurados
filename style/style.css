@@ -1,0 +1,12 @@
+.boton1 {
+    background-color: green;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    border-style: solid;
+    display: block;
+}
+
+a {
+    color: honeydew;
+}
