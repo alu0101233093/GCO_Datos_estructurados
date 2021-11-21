@@ -8,7 +8,25 @@
   <link rel="stylesheet" href="../style/style.css">
     <script type="application/ld+json">
       {
-        <!-- aqui va el json -->
+        "@context": "https://schema.org/", 
+        "@type": "HowTo", 
+        "name": "Sacar dinero",
+        "description": "Es posible extraer el dinero ganado en la aplicación directamente a tu cuenta bancaria.",
+        "estimatedCost": {
+          "@type": "MonetaryAmount",
+          "currency": "EUR",
+          "value": "0"
+        },
+        "step": [{
+          "@type": "HowToStep",
+          "text": "Debe introducir el número de cuenta, si no estaba previamente introducido."
+        },{
+          "@type": "HowToStep",
+          "text": "Introducir la cantidad que desea retirar (debe ser menor que el saldo en la aplicación)."
+        },{
+          "@type": "HowToStep",
+          "text": "Por último, se pulsa el botón 'transferir a mi cuenta'."
+        }]    
       }
   </script>
 </head>
